@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.registration-form {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 90%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position-x: 95%;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.output {
+  margin-top: 30px;
+}
+
+.output h2 {
+  margin-bottom: 10px;
+}
+
+.output p {
+  margin: 0;
+}
+
+.output {
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+}
+
+.output h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.output p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.output strong {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.output span {
+  font-weight: normal;
+}
+
+/* Styling for the individual detail items */
+.output p:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.output p:first-child {
+  margin-top: 0;
+}
+
+.output p:last-child {
+  margin-bottom: 0;
+}

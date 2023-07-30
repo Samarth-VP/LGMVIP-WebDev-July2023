@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="registration-form">
+      <form id="regForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="skills">Skills:</label>
+          <select id="skills" name="skills" required>
+            <option value="">Select Skills</option>
+            <option value="web-dev">Web Development</option>
+            <option value="data-science">Data Science</option>
+            <option value="mobile-dev">Mobile Development</option>
+          </select>
+        </div>
+        <input type="submit" value="Register" />
+      </form>
+      <div class="output" id="outputSection">
+        <h2>Registration Data:</h2>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/script.js"></script>
+</html>
